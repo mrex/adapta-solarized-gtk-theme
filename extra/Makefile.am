@@ -1,8 +1,5 @@
 themedir     = $(datadir)/themes
 adaptadir    = $(DESTDIR)$(themedir)/Adapta
-noktodir     = $(DESTDIR)$(themedir)/Adapta-Nokto
-adaptaetadir = $(DESTDIR)$(themedir)/Adapta-Eta
-noktoetadir  = $(DESTDIR)$(themedir)/Adapta-Nokto-Eta
 
 chromedir         = $(srcdir)/chrome
 chrome_file       = $(chromedir)/adapta-theme.crx

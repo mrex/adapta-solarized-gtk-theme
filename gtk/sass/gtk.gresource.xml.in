@@ -328,6 +328,5 @@
     <file>assets/window-unmaximize-ssd-hover.png</file>
     <file>assets/window-unmaximize-ssd.png</file>
     <file>gtk-contained.css</file>
-    <file>gtk-contained-dark.css</file>
   </gresource>
 </gresources>
