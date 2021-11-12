@@ -31,10 +31,6 @@ ADAPTA_OPTION([FLASHBACK],    [flashback],    [Flashback],           [enable])
 ADAPTA_OPTION([XFCE],         [xfce],         [XFce],                [enable])
 ADAPTA_OPTION([MATE],         [mate],         [Mate],                [enable])
 ADAPTA_OPTION([OPENBOX],      [openbox],      [Openbox],             [enable])
-ADAPTA_OPTION([CHROME_LEGACY],[chrome_legacy],[Chrome(ium)-legacy],  [disable])
-ADAPTA_OPTION([PLANK],        [plank],        [Plank],               [disable])
-ADAPTA_OPTION([TELEGRAM],     [telegram],     [Telegram],            [disable])
-ADAPTA_OPTION([TWEETDECK],    [tweetdeck],    [Tweetdeck-Colordeck], [disable])
 
 PKG_PROG_PKG_CONFIG
 AS_IF([test -z "$PKG_CONFIG"], [AC_MSG_ERROR(['pkg-config' not found.])])
@@ -129,10 +125,6 @@ AC_MSG_RESULT([
         -----------------------------------------------------------------
 
          GtkSourceView/Gedit:    always
-         Chrome(ium)-legacy:     $ENABLE_CHROME_LEGACY (default: no)
-         Plank:                  $ENABLE_PLANK (default: no)
-         Telegram:               $ENABLE_TELEGRAM (default: no)
-         Tweetdeck-Colordeck:    $ENABLE_TWEETDECK (default: no)
 
         =================================================================
                                    =>> run 'make' and 'sudo make install'
